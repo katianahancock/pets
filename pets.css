@@ -1,0 +1,114 @@
+body {
+    background-image: "doggy!.jpg";
+    margin: 0px;
+    font-family: 'Maven Pro';
+}
+
+img {
+    width: 100%;
+}
+
+#topNav {
+    height: 2em;
+    width: auto;
+    border: 1px black solid;
+    display: flex;
+    justify-content: flex-end;
+    align-content: top;
+}
+
+.topNavButtons {
+    height: auto;
+    width: auto;
+    border: 1px black solid;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.topNavButtons a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#topNavLanguage {
+    height: auto;
+    width: auto;
+    border: 1px black solid;
+    display: block;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+#topNavLanguage a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mainHeader {
+    height: auto;
+    width: auto;
+    border: 1px black solid;
+    font-size: 40px;
+    padding: 1em;
+}
+
+#mainNav {
+    height: 3em;
+    width: auto;
+    border: 1px black solid;
+    display: flex;
+    align-content: top;
+}
+
+.mainNavButton {
+    height: auto;
+    width: 500px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.mainNavButton a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mainContent {
+    width: auto;
+    height: auto;
+    border: 1px black solid;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.photoSpace {
+    width: auto;
+    height: auto;
+    border: 1px black solid;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#bottomNav {
+    width: auto;
+    height: 8em;
+    border: 1px black solid;
+}
+
+#puppy {
+    object-fit: cover;
+    width: 1500px;
+    position: relative;
+    bottom: 100px;
+}
