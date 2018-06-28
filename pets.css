@@ -1,5 +1,4 @@
 body {
-    background-image: "doggy!.jpg";
     margin: 0px;
     font-family: 'Maven Pro';
 }
@@ -11,7 +10,7 @@ img {
 #topNav {
     height: 2em;
     width: auto;
-    border: 1px black solid;
+    background-color: #E1DEE1;
     display: flex;
     justify-content: flex-end;
     align-content: top;
@@ -19,9 +18,9 @@ img {
 
 .topNavButtons {
     height: auto;
-    width: auto;
-    border: 1px black solid;
-    display: block;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -31,47 +30,43 @@ img {
 .topNavButtons a {
     text-decoration: none;
     font-weight: bold;
-}
-
-#topNavLanguage {
-    height: auto;
-    width: auto;
-    border: 1px black solid;
-    display: block;
-    text-align: center;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 5px;
-}
-
-#topNavLanguage a {
-    text-decoration: none;
-    font-weight: bold;
+    color: #1A6480;
 }
 
 #mainHeader {
     height: auto;
     width: auto;
-    border: 1px black solid;
-    font-size: 40px;
-    padding: 1em;
+    font-size: 50px;
+    color: #393839;
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#mainHeader img {
+    width: 60px;
+    height: 60px;
+}
+
+#mainHeaderSearch {
+    display: flex;
 }
 
 #mainNav {
     height: 3em;
-    width: auto;
-    border: 1px black solid;
+    background-color: #4588A0;
     display: flex;
-    align-content: top;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .mainNavButton {
     height: auto;
-    width: 500px;
-    border: 1px black solid;
+    width: 45%;
     display: flex;
     justify-content: space-between;
-    padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
 }
@@ -79,36 +74,34 @@ img {
 .mainNavButton a {
     text-decoration: none;
     font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.mainNavButton img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px 10px 15px;
 }
 
 #mainContent {
+    background: url(doggy!.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: auto;
-    height: auto;
-    border: 1px black solid;
+    height: 510px;
     display: flex;
     align-content: center;
     justify-content: center;
     overflow: hidden;
 }
 
-.photoSpace {
-    width: auto;
-    height: auto;
-    border: 1px black solid;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
 #bottomNav {
     width: auto;
     height: 8em;
-    border: 1px black solid;
-}
-
-#puppy {
-    object-fit: cover;
-    width: 1500px;
-    position: relative;
-    bottom: 100px;
+    background-color: #4588A0;
+    color: white;
 }
